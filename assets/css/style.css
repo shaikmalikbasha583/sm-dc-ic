@@ -22,9 +22,20 @@ body {
   font-weight: 700;
 }
 
-/* =========================================
-   1. GLOBAL & RESET UTILITIES
-   ========================================= */
+.carousel-title {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+}
+
+.carousel-detailed-text {
+  font-size: 1.2rem;
+  color: #bebcbc;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
 * {
   box-sizing: border-box; /* Prevents padding from breaking widths */
 }
@@ -38,10 +49,6 @@ body {
   height: 100%; /* Centers vertically in the nav */
 }
 
-/* =========================================
-   2. MOBILE VIEW (Default / < 600px)
-   ========================================= */
-/* Space for the Hamburger Menu (usually ~56px-60px) */
 .brand-logo {
   left: 60px !important;
   transform: none !important;
@@ -55,10 +62,14 @@ body {
 /* =========================================
    3. TABLET VIEW (≥ 600px)
    ========================================= */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 768px) {
   .brand-logo {
     left: 65px !important;
     font-size: 1.4rem; /* Slightly larger text */
+  }
+  .carousel-title {
+    font-weight: 700;
+    font-size: 2.5rem;
   }
 }
 
@@ -66,20 +77,20 @@ body {
    4. DESKTOP VIEW (≥ 992px)
    ========================================= */
 /* In Materialize, the hamburger hides here, so we move back to the left edge */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .brand-logo {
     left: 20px !important;
     font-size: 1.6rem;
     transform: none !important;
   }
-}
+} */
 
 /* =========================================
    5. LARGE DESKTOP (≥ 1200px)
    ========================================= */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
   .brand-logo {
     font-size: 1.8rem;
     left: 30px !important;
   }
-}
+} */
