@@ -1,0 +1,44 @@
+/* Custom properties for consistency */
+:root {
+  --primary: #0d47a1;
+  --accent: #ffb300;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  scroll-behavior: smooth;
+}
+
+/* Make buttons look a bit more modern */
+.btn {
+  border-radius: 50px !important;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+}
+
+/* Helper Class */
+.font-bold {
+  font-weight: 700;
+}
+
+.brand-logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Small devices (≥ 600px) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (≥ 992px) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Large devices (≥ 1200px) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* Extra Large devices (≥ 1600px) */
+@media only screen and (min-width: 1600px) {
+}
