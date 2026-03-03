@@ -6,8 +6,9 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: #444;
+  color: black;
   scroll-behavior: smooth;
+  background-color: #cacaca;
 }
 
 /* Make buttons look a bit more modern */
@@ -59,38 +60,18 @@ body {
   margin-right: 5px; /* Tiny gap after "SM" */
 }
 
-/* =========================================
-   3. TABLET VIEW (≥ 600px)
-   ========================================= */
-@media only screen and (max-width: 768px) {
-  .brand-logo {
-    left: 65px !important;
-    font-size: 1.4rem; /* Slightly larger text */
+@media screen and (max-width: 600px) {
+  .hero-title-hint {
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: center;
   }
-  .carousel-title {
-    font-weight: 700;
-    font-size: 2.5rem;
+  .hero-title {
+    margin: 0px;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .hero-title-description {
+    text-align: justify;
   }
 }
-
-/* =========================================
-   4. DESKTOP VIEW (≥ 992px)
-   ========================================= */
-/* In Materialize, the hamburger hides here, so we move back to the left edge */
-/* @media only screen and (min-width: 992px) {
-  .brand-logo {
-    left: 20px !important;
-    font-size: 1.6rem;
-    transform: none !important;
-  }
-} */
-
-/* =========================================
-   5. LARGE DESKTOP (≥ 1200px)
-   ========================================= */
-/* @media only screen and (min-width: 1200px) {
-  .brand-logo {
-    font-size: 1.8rem;
-    left: 30px !important;
-  }
-} */
