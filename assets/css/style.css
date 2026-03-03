@@ -22,23 +22,64 @@ body {
   font-weight: 700;
 }
 
+/* =========================================
+   1. GLOBAL & RESET UTILITIES
+   ========================================= */
+* {
+  box-sizing: border-box; /* Prevents padding from breaking widths */
+}
+
 .brand-logo {
+  display: flex !important;
+  align-items: center;
+  white-space: nowrap; /* CRITICAL: Prevents "Care" from wrapping/hiding */
   font-weight: 700;
-  font-size: 1.5rem;
+  text-decoration: none;
+  height: 100%; /* Centers vertically in the nav */
 }
 
-/* Small devices (≥ 600px) */
+/* =========================================
+   2. MOBILE VIEW (Default / < 600px)
+   ========================================= */
+/* Space for the Hamburger Menu (usually ~56px-60px) */
+.brand-logo {
+  left: 60px !important;
+  transform: none !important;
+  font-size: 1.2rem; /* Compact for small screens */
+}
+
+.brand-logo .amber-text {
+  margin-right: 5px; /* Tiny gap after "SM" */
+}
+
+/* =========================================
+   3. TABLET VIEW (≥ 600px)
+   ========================================= */
 @media only screen and (min-width: 600px) {
+  .brand-logo {
+    left: 65px !important;
+    font-size: 1.4rem; /* Slightly larger text */
+  }
 }
 
-/* Medium devices (≥ 992px) */
+/* =========================================
+   4. DESKTOP VIEW (≥ 992px)
+   ========================================= */
+/* In Materialize, the hamburger hides here, so we move back to the left edge */
 @media only screen and (min-width: 992px) {
+  .brand-logo {
+    left: 20px !important;
+    font-size: 1.6rem;
+    transform: none !important;
+  }
 }
 
-/* Large devices (≥ 1200px) */
+/* =========================================
+   5. LARGE DESKTOP (≥ 1200px)
+   ========================================= */
 @media only screen and (min-width: 1200px) {
-}
-
-/* Extra Large devices (≥ 1600px) */
-@media only screen and (min-width: 1600px) {
+  .brand-logo {
+    font-size: 1.8rem;
+    left: 30px !important;
+  }
 }
