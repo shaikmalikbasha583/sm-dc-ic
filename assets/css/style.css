@@ -71,8 +71,8 @@ body {
 
 @media screen and (max-width: 600px) {
   .hero-title-hint {
-    margin-top: 50px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 17px;
     text-align: center;
   }
   .hero-title {
