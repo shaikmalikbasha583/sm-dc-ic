@@ -60,6 +60,15 @@ body {
   margin-right: 5px; /* Tiny gap after "SM" */
 }
 
+#home .row {
+  margin-bottom: 5px;
+}
+
+.quick-info-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 @media screen and (max-width: 600px) {
   .hero-title-hint {
     margin-top: 50px;
@@ -73,5 +82,8 @@ body {
   }
   .hero-title-description {
     text-align: justify;
+  }
+  .quick-info-border {
+    border: none;
   }
 }
