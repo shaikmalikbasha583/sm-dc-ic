@@ -22,6 +22,51 @@
     <link rel="manifest" href="./assets/img/favicon/site.webmanifest">
 
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "SM Dental Care & Implant Center",
+        "image": "https://yourdomain.com/assets/img/doctor.jpg",
+        "url": "https://yourdomain.com",
+        "telephone": ["+919972354088","+919110743370"],
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Opp. Dr. Aravind Babu Hospital",
+            "addressLocality": "Narasaraopeta",
+            "addressRegion": "Andhra Pradesh",
+            "postalCode": "522601",
+            "addressCountry": "IN"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "16.2361",
+            "longitude": "80.0540"
+        },
+        "openingHoursSpecification": [
+            {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/YourClinicPage",
+            "https://www.instagram.com/YourClinicPage"
+        ],
+        "description": "SM Dental Care & Implant Center in Narasaraopeta provides Laser Dentistry, Dental Implants, Painless Root Canal, Teeth Whitening, Braces, and Pediatric Dental Care. Book your appointment today with Dr. Rahaman Shareef."
+    }
+    </script>
 </head>
 
 <body>
@@ -49,27 +94,45 @@
 
         <ul class="sidenav" id="mobile-nav">
             <li>
-                <div class="user-view">
-                    <div class="background blue lighten-3">
-                        <img class="responsive-img" src="./assets/img/AnimieClinic.png" />
+                <div class="user-view blue darken-4">
+                    <div class="background">
+                        <img class="responsive-img" src="./assets/img/AnimieClinic.png" alt="SM Dental Care">
                     </div>
-                    <span class="black-text name" style="font-weight: 800; font-size: 1.2rem;">
-                        SM Dental Care & Implant Center
-                    </span>
-                    <span class="black-text" style="font-size: 0.8rem;">
-                        Narasaraopeta, Andhra Pradesh
-                    </span>
+                    <span class="white-text name font-bold">SM Dental Care & Implant Center</span>
+                    <span class="amber-text text-accent-3">Narasaraopeta, Andhra Pradesh</span>
                 </div>
             </li>
+
             <li>
-                <a href="#home"><i class="material-icons">home</i>Home</a>
+                <a href="#home" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons amber-text text-accent-3">home</i>Home
+                </a>
             </li>
             <li>
-                <a href="#services"><i class="material-icons">medical_services</i>Services</a>
+                <a href="#services" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons amber-text text-accent-3">medical_services</i>Services
+                </a>
             </li>
             <li>
-                <a href="#contact" class="blue-text text-darken-4 font-bold"><i class="material-icons">phone</i>Book
-                    Appointment</a>
+                <a href="#why-us" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons amber-text text-accent-3">star</i>Why Choose Us
+                </a>
+            </li>
+            <li>
+                <a href="#testimonials" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons amber-text text-accent-3">forum</i>Testimonials
+                </a>
+            </li>
+            <li>
+                <a href="#faq" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons amber-text text-accent-3">help</i>FAQ
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="sidenav-close hover blue-text text-darken-4">
+                    <i class="material-icons left amber-text text-accent-3">phone</i>
+                    <span class="font-bold">Book Appointment</span>
+                </a>
             </li>
         </ul>
     </header>
@@ -143,7 +206,7 @@
                         <i class="material-icons amber-text text-accent-3 medium">place</i>
                         <h6 class="font-bold">Our Location</h6>
                         <p class="grey-text text-lighten-2" style="margin-bottom: 0;">
-                            Opp. Dr. Aravind Babu Hospital <br>
+                            Opp. Dr. Aravind Babu Hospital<br>
                             Narasaraopeta, Andhra Pradesh
                         </p>
                     </div>
@@ -175,7 +238,671 @@
             </div>
         </section>
 
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section scrollspy white">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            ABOUT SM DENTAL CARE
+                        </h5>
+                        <h2 class="doc-title blue-text text-darken-4 font-bold">
+                            Meet Dr. Shaik Rahaman Shareef 👨‍⚕️
+                        </h2>
+                        <div class="divider amber" style="width: 80px; height: 4px; margin: 15px auto;"></div>
+                    </div>
+                </div>
+
+                <!-- Content Row -->
+                <div class="row">
+
+                    <!-- Image Column -->
+                    <div class="col s12 m5 center-align animate__animated animate__fadeInLeft">
+                        <img src="./assets/img/DrShaikRahamanShareef.png"
+                            alt="Dr Rahaman Shareef Best Dentist in Narasaraopeta"
+                            class="responsive-img circle z-depth-2" width="300" height="300" />
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col s12 m7">
+                        <p class="flow-text grey-text text-darken-2 text-justify">
+                            <strong class="blue-text text-darken-4 font-bold">Dr. Rahaman Shareef</strong> is a trusted
+                            dentist in
+                            Narasaraopeta specializing in
+                            <span class="amber-text text-darken-3 font-bold">Laser Dentistry</span>,
+                            <span class="amber-text text-darken-3 font-bold">Dental Implants</span>, and
+                            <span class="amber-text text-darken-3 font-bold">Painless Root Canal Treatment</span>.
+                        </p>
+
+                        <p class="grey-text text-darken-2 text-justify">
+                            At <strong>SM Dental Care & Implant Center</strong>, we combine advanced technology
+                            with compassionate care to deliver comfortable and stress-free treatments.
+                            <span class="font-bold">Healthy Smiles. Happy Patients. 😊</span>
+                        </p>
+
+                        <!-- Feature Points -->
+                        <ul class="collection">
+                            <li class="collection-item">
+                                <i class="material-icons left blue-text text-darken-4 hoverable">check_circle</i>
+                                Advanced Laser Treatments
+                            </li>
+                            <li class="collection-item">
+                                <i class="material-icons left blue-text text-darken-4 hoverable">check_circle</i>
+                                High Success Rate Implants
+                            </li>
+                            <li class="collection-item">
+                                <i class="material-icons left blue-text text-darken-4 hoverable">check_circle</i>
+                                Modern Sterilization Standards
+                            </li>
+                            <li class="collection-item">
+                                <i class="material-icons left blue-text text-darken-4 hoverable">check_circle</i>
+                                Gentle & Friendly Approach
+                            </li>
+                        </ul>
+
+                        <div class="center-align">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                                target="_blank"
+                                class="btn-large amber accent-3 black-text waves-effect waves-light pulse">
+                                <i class="material-icons left">event_available</i>
+                                Book Consultation
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="section scrollspy grey lighten-4">
+            <div class="container">
+
+                <!-- Section Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            OUR SERVICES 🦷
+                        </h5>
+                        <h2 class="blue-text text-darken-4 font-bold doc-title">
+                            Advanced Dental Treatments in Narasaraopeta
+                        </h2>
+                        <p class="grey-text text-darken-2">
+                            Modern technology. Painless procedures. Trusted dental care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Services Grid -->
+                <div class="row">
+
+                    <!-- Dental Implants -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large blue-text text-darken-4">medical_services</i>
+                                <span class="card-title font-bold">Dental Implants</span>
+                                <p>
+                                    Permanent and natural-looking tooth replacement with high precision and long-lasting
+                                    results.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Root Canal -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large amber-text text-darken-3">healing</i>
+                                <span class="card-title font-bold">Painless Root Canal</span>
+                                <p>
+                                    Advanced root canal treatment ensuring pain-free procedure and complete infection
+                                    removal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Laser Dentistry -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large blue-text text-darken-4">flash_on</i>
+                                <span class="card-title font-bold">Laser Dentistry</span>
+                                <p>
+                                    Modern laser treatments for precise, comfortable and faster healing dental
+                                    procedures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teeth Whitening -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large amber-text text-darken-3">brightness_high</i>
+                                <span class="card-title font-bold">Teeth Whitening</span>
+                                <p>
+                                    Professional teeth whitening for a brighter, confident and beautiful smile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Braces & Aligners -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large blue-text text-darken-4">straighten</i>
+                                <span class="card-title font-bold">Braces & Aligners</span>
+                                <p>
+                                    Correct misaligned teeth with modern orthodontic solutions and invisible aligners.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pediatric Dentistry -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content center-align">
+                                <i class="material-icons large amber-text text-darken-3">child_care</i>
+                                <span class="card-title font-bold">Child Dental Care</span>
+                                <p>
+                                    Gentle and friendly dental treatments specially designed for children.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                            target="_blank" class="btn-large amber accent-3 black-text waves-effect waves-light pulse">
+                            <i class="material-icons left">calendar_today</i>
+                            Book Now!
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE US SECTION -->
+        <section id="why-us" class="section scrollspy white">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            WHY CHOOSE US ⭐
+                        </h5>
+                        <h2 class="blue-text text-darken-4 font-bold doc-title">
+                            Trusted Dental Care in Narasaraopeta
+                        </h2>
+                        <p class="grey-text text-darken-2">
+                            We combine advanced technology with compassionate care for the best dental experience.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="row">
+
+                    <!-- Modern Equipment -->
+                    <div class="col s12 m6 l3">
+                        <div class="card-panel center-align hoverable">
+                            <i class="material-icons large blue-text text-darken-4">precision_manufacturing</i>
+                            <h6 class="font-bold">Modern Equipment</h6>
+                            <p class="grey-text text-darken-2">
+                                Advanced dental technology for accurate and efficient treatments.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Experienced Doctor -->
+                    <div class="col s12 m6 l3">
+                        <div class="card-panel center-align hoverable">
+                            <i class="material-icons large amber-text text-darken-3">verified</i>
+                            <h6 class="font-bold">Experienced Dentist</h6>
+                            <p class="grey-text text-darken-2">
+                                Skilled and trusted dental care under expert supervision.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Painless Procedures -->
+                    <div class="col s12 m6 l3">
+                        <div class="card-panel center-align hoverable">
+                            <i class="material-icons large blue-text text-darken-4">sentiment_satisfied</i>
+                            <h6 class="font-bold">Painless Treatment</h6>
+                            <p class="grey-text text-darken-2">
+                                Comfortable procedures designed to reduce fear and anxiety.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Emergency Support -->
+                    <div class="col s12 m6 l3">
+                        <div class="card-panel center-align hoverable">
+                            <i class="material-icons large amber-text text-darken-3">local_hospital</i>
+                            <h6 class="font-bold">24/7 Emergency</h6>
+                            <p class="grey-text text-darken-2">
+                                Immediate dental assistance whenever you need urgent care.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Highlight Strip -->
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card blue darken-4 white-text center-align">
+                            <div class="card-content">
+                                <h5 class="font-bold">
+                                    Your Smile Deserves the Best Care 🦷✨
+                                </h5>
+                                <p>
+                                    Book your consultation today and experience modern, safe and gentle dentistry.
+                                </p>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                                    target="_blank" class="btn amber accent-3 black-text waves-effect waves-light">
+                                    <i class="material-icons left">event_available</i>
+                                    Schedule Appointment
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TESTIMONIALS SECTION -->
+        <section id="testimonials" class="section scrollspy grey lighten-4">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            PATIENT TESTIMONIALS 💬
+                        </h5>
+                        <h2 class="blue-text text-darken-4 font-bold doc-title">
+                            What Our Patients Say
+                        </h2>
+                        <p class="grey-text text-darken-2">
+                            Trusted by families across Narasaraopeta for quality dental care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonials Grid -->
+                <div class="row">
+
+                    <!-- Testimonial 1 -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content">
+                                <span class="card-title blue-text text-darken-4 font-bold">
+                                    ⭐⭐⭐⭐⭐
+                                </span>
+                                <p class="text-justify">
+                                    I had a painless root canal treatment at SM Dental Care.
+                                    Dr. Rahaman Shareef explained everything clearly and made me feel comfortable.
+                                    Highly recommended in Narasaraopeta!
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <span class="font-bold">— Ramesh Kumar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content">
+                                <span class="card-title amber-text text-darken-3 font-bold">
+                                    ⭐⭐⭐⭐⭐
+                                </span>
+                                <p class="text-justify">
+                                    The clinic is very clean and modern. I got my dental implant done here and the
+                                    results are amazing.
+                                    Best dental clinic in Narasaraopeta.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <span class="font-bold">— Sravani</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="col s12 m6 l4">
+                        <div class="card hoverable">
+                            <div class="card-content">
+                                <span class="card-title blue-text text-darken-4 font-bold">
+                                    ⭐⭐⭐⭐⭐
+                                </span>
+                                <p class="text-justify">
+                                    Very friendly doctor and staff. My child felt comfortable during treatment.
+                                    Excellent pediatric dental care experience.
+                                </p>
+                            </div>
+                            <div class="card-action">
+                                <span class="font-bold">— Abdul Rahman</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- CTA -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                            target="_blank" class="btn-large amber accent-3 black-text waves-effect waves-light pulse">
+                            <i class="material-icons left">rate_review</i>
+                            Book Your Visit Today
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="section scrollspy white">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            FREQUENTLY ASKED QUESTIONS ❓
+                        </h5>
+                        <h2 class="blue-text text-darken-4 font-bold">
+                            Dental Questions Answered
+                        </h2>
+                        <p class="grey-text text-darken-2">
+                            Everything you need to know about our dental treatments in Narasaraopeta.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Collapsible -->
+                <div class="row">
+                    <div class="col s12 m10 offset-m1">
+
+                        <ul class="collapsible popout">
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons blue-text text-darken-4">medical_services</i>
+                                    Is root canal treatment painful?
+                                </div>
+                                <div class="collapsible-body">
+                                    <span>
+                                        No. At SM Dental Care & Implant Center, we use modern techniques and anesthesia
+                                        to ensure painless root canal treatment. Most patients feel comfortable
+                                        during and after the procedure.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons amber-text text-darken-3">health_and_safety</i>
+                                    How long do dental implants last?
+                                </div>
+                                <div class="collapsible-body">
+                                    <span>
+                                        Dental implants can last many years or even a lifetime with proper oral hygiene
+                                        and regular dental checkups. They are a permanent solution for missing teeth.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons blue-text text-darken-4">child_care</i>
+                                    Do you provide dental care for children?
+                                </div>
+                                <div class="collapsible-body">
+                                    <span>
+                                        Yes. We offer gentle and friendly pediatric dental care to ensure children
+                                        feel safe and comfortable during treatment.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons amber-text text-darken-3">schedule</i>
+                                    Do I need an appointment or do you accept walk-ins?
+                                </div>
+                                <div class="collapsible-body">
+                                    <span>
+                                        While we do accept walk-ins based on availability, we recommend booking
+                                        an appointment in advance to avoid waiting time.
+                                    </span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collapsible-header">
+                                    <i class="material-icons blue-text text-darken-4">local_hospital</i>
+                                    Do you provide emergency dental services?
+                                </div>
+                                <div class="collapsible-body">
+                                    <span>
+                                        Yes. We provide 24/7 emergency dental care in Narasaraopeta for severe tooth
+                                        pain,
+                                        broken teeth, infections, and urgent dental issues.
+                                    </span>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                            target="_blank" class="btn-large amber accent-3 black-text waves-effect waves-light pulse">
+                            <i class="material-icons left">event_available</i>
+                            Why wait?
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section scrollspy grey lighten-4">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h5 class="amber-text text-darken-3 font-bold">
+                            CONTACT US 📍
+                        </h5>
+                        <h2 class="blue-text text-darken-4 font-bold doc-title">
+                            Visit SM Dental Care & Implant Center
+                        </h2>
+                        <p class="grey-text text-darken-2">
+                            Book your appointment or visit our clinic in Narasaraopeta today.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <!-- Contact Details -->
+                    <div class="col s12 m5">
+
+                        <div class="card-panel hoverable">
+                            <h6 class="blue-text text-darken-4 font-bold">
+                                <i class="material-icons left">place</i>
+                                Our Address
+                            </h6>
+                            <p>
+                                SM Dental Care & Implant Center<br>
+                                Opp. Dr. Aravind Babu Hospital<br>
+                                Narasaraopeta, Andhra Pradesh
+                            </p>
+                        </div>
+
+                        <div class="card-panel hoverable">
+                            <h6 class="blue-text text-darken-4 font-bold">
+                                <i class="material-icons left">phone</i>
+                                Call Us
+                            </h6>
+                            <p>
+                                <a href="tel:+919972354088" class="blue-text text-darken-4 font-bold">
+                                    +91 99723 54088
+                                </a>
+                                <br>
+                                <a href="tel:+919110743370" class="blue-text text-darken-4 font-bold">
+                                    +91 91107 43370
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="card-panel hoverable">
+                            <h6 class="blue-text text-darken-4 font-bold">
+                                <i class="material-icons left">access_time</i>
+                                Clinic Hours
+                            </h6>
+                            <p>
+                                Monday – Sunday: 9:00 AM – 9:00 PM <br>
+                                <span class="amber-text text-darken-3 font-bold">
+                                    24/7 Emergency Services Available
+                                </span>
+                            </p>
+                        </div>
+
+                        <!-- <div class="center-align">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+                                target="_blank"
+                                class="btn-large amber accent-3 black-text waves-effect waves-light pulse">
+                                <i class="material-icons left">calendar_today</i>
+                                Book Appointment
+                            </a>
+                        </div> -->
+
+                    </div>
+
+                    <!-- Google Map -->
+                    <div class="col s12 m7">
+                        <div class="card hoverable">
+                            <div class="card-content">
+                                <h6 class="blue-text text-darken-4 font-bold center-align">
+                                    <i class="material-icons left">map</i>
+                                    Find Us on Map
+                                </h6>
+                            </div>
+                            <div class="card-image">
+                                <iframe src="https://www.google.com/maps?q=Narasaraopeta,+Andhra+Pradesh&output=embed"
+                                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- FOOTER -->
+    <footer class="page-footer blue darken-4">
+        <div class="container">
+            <div class="row">
+
+                <!-- Clinic Info -->
+                <div class="col s12 m6">
+                    <h5 class="amber-text text-accent-3 font-bold">
+                        SM Dental Care & Implant Center 🦷
+                    </h5>
+                    <p class="grey-text text-lighten-3 text-justify">
+                        Providing advanced dental treatments in Narasaraopeta including
+                        Dental Implants, Laser Dentistry, Root Canal Treatment,
+                        Teeth Whitening and Pediatric Dental Care.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col s12 m3">
+                    <h6 class="white-text font-bold">Quick Links</h6>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#about">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#services">Services</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#why-us">Why Choose Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#faq">FAQ</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col s12 m3">
+                    <h6 class="white-text font-bold">Contact Info</h6>
+                    <p class="grey-text text-lighten-3">
+                        <i class="material-icons tiny">place</i>
+                        Opp. Dr. Aravind Babu Hospital <br>
+                        Narasaraopeta, Andhra Pradesh
+                    </p>
+
+                    <p>
+                        <i class="material-icons tiny">phone</i>
+                        <a href="tel:+919972354088" class="grey-text text-lighten-3">
+                            +91 99723 54088
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="material-icons tiny">email</i>
+                        <a href="mailto:info@smdentalcare.com" class="grey-text text-lighten-3">
+                            info@smdentalcare.com
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Bottom Copyright -->
+        <div class="footer-copyright">
+            <div class="container center-align">
+                © 2026 SM Dental Care & Implant Center | Best Dentist in Narasaraopeta
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING BUTTON -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOIpVKqAC3kobwG2hPPhir3P0FF6ScZ86rlKuEvB5Ya5OINg/viewform"
+        class="btn-floating btn-large amber darken-2 waves-effect waves-light pulse my-floating-btn">
+        <i class="material-icons">event_available</i>
+    </a>
+
+    <!-- GO TO TOP BUTTON -->
+    <a id="goTopBtn" class="btn-floating blue darken-4 btn-large go-top-btn">
+        <i class="material-icons">arrow_upward</i>
+    </a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/js/script.js"></script>

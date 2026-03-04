@@ -7,6 +7,9 @@ function initMaterialize() {
     inDuration: 250,
   });
 
+  var collapse = document.querySelectorAll(".collapsible");
+  M.Collapsible.init(collapse);
+
   // Initialize ScrollSpy (Required for the 'active' state in nav)
   const scrollspies = document.querySelectorAll(".scrollspy");
   M.ScrollSpy.init(scrollspies, {
@@ -74,8 +77,28 @@ function initMaterialize() {
   });
 }
 
+function goToTop() {
+  const goTopBtn = document.getElementById("goTopBtn");
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 300) {
+      goTopBtn.classList.add("show");
+    } else {
+      goTopBtn.classList.remove("show");
+    }
+  });
+
+  goTopBtn.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+}
+
 function initAfterDOMLoad() {
   initMaterialize();
+  goToTop();
 }
 
 document.addEventListener("DOMContentLoaded", initAfterDOMLoad);

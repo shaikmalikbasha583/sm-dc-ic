@@ -11,6 +11,10 @@ body {
   background-color: #cacaca;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /* Make buttons look a bit more modern */
 .btn {
   border-radius: 50px !important;
@@ -69,6 +73,35 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.15);
 }
 
+/* Floating Telegram Button */
+.my-floating-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 996;
+}
+/* Go To Top Button */
+.go-top-btn {
+  position: fixed;
+  bottom: 95px; /* above telegram button */
+  right: 25px;
+  z-index: 996;
+
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+/* Visible State */
+.go-top-btn.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 @media screen and (max-width: 600px) {
   .hero-title-hint {
     margin-top: 20px;
@@ -85,5 +118,11 @@ body {
   }
   .quick-info-border {
     border: none;
+  }
+  .doc-title {
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
   }
 }
